@@ -1,23 +1,16 @@
 {
   "name": "updated-gatsby-blog",
-  "version": "0.1.0",
-  "description": "Gatsby Blog",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/david-mateogit/updated-gatsby-blog.git"
-  },
-  "keywords": [
-    "gatsby",
-    "blog"
-  ],
-  "author": "David Mateo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/david-mateogit/updated-gatsby-blog/issues"
-  },
-  "homepage": "https://github.com/david-mateogit/updated-gatsby-blog#readme"
+  "dependencies": {
+    "gatsby": "^2.13.39",
+    "gatsby-theme-blog": "^1.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
