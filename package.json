@@ -1,0 +1,23 @@
+{
+  "name": "updated-gatsby-blog",
+  "version": "0.1.0",
+  "description": "Gatsby Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-mateogit/updated-gatsby-blog.git"
+  },
+  "keywords": [
+    "gatsby",
+    "blog"
+  ],
+  "author": "David Mateo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david-mateogit/updated-gatsby-blog/issues"
+  },
+  "homepage": "https://github.com/david-mateogit/updated-gatsby-blog#readme"
+}
