@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: david-mateogit/updated-gatsby-blog
 
 media_folder: static/assets
 public_folder: assets
@@ -8,7 +8,7 @@ public_folder: assets
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "content/blog"
+    folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
