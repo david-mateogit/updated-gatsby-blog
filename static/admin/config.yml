@@ -1,6 +1,6 @@
 backend: 
     name: github
-    repo: [david-mateogit]/[updated-gatsby-blog]
+    repo: david-mateogit/updated-gatsby-blog
 
 media_folder: static/assets
 public_folder: assets
